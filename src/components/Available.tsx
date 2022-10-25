@@ -10,7 +10,7 @@ const Available = () => {
 						px-6 py-1 text-base font-medium text-gray-900 hover:bg-yellow-600/30
 						md:py-2 md:px-8 md:text-lg whitespace-nowrap glow transition duration-300 ease-in-out"
 					>
-						I'm open to freelance challenges, let's chat!
+						I'm open to freelance, let's chat!
 					</ExternalLink>
 				</div>
 				<span className="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
