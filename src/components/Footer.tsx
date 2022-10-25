@@ -52,7 +52,7 @@ export default function Footer() {
 				<div className="px-4 pt-8 mx-auto border-t border-yellow-700 max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
 					<div className="flex items-center justify-center space-x-6 md:order-2">
 						{navigation.map((item, index) => (
-							<ExternalLink key={index} href={item.href} className="jelly">
+							<ExternalLink key={index} href={item.href} className="pulse">
 								<span className="sr-only">{item.name}</span>
 								<item.icon className="w-8 h-8" aria-hidden="true" />
 							</ExternalLink>
@@ -61,7 +61,7 @@ export default function Footer() {
 					<div className="max-w-md mt-8 text-base text-center md:order-1 md:mt-0 lg:text-left">
 						<p>
 							{' '}
-							<ExternalLink href="/" className="inline-block font-bold">
+							<ExternalLink href="/" className="inline-block font-bold pulse">
 								bruna<span className="font-normal">bites.</span>
 							</ExternalLink>
 						</p>

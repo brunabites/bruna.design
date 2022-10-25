@@ -46,7 +46,7 @@ const About: NextPage = () => {
       />
       <Container>
         <AboutHeroSection />
-        <ServicesSection />
+        {/* <ServicesSection /> */}
         <ContactSection />
       </Container>
     </WebWrapper>

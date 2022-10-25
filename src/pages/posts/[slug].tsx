@@ -14,7 +14,7 @@ type SinglePostProps = {
 const SinglePost = ({ post }: SinglePostProps) => {
   const MDXComponent = useMDXComponent(post.body.code);
   return (
-    <WebWrapper color="bg-yellow-50">
+    <WebWrapper color="bg-white">
       <NextSeo
         title={
           post.seo_title && post.seo_title !== post.title

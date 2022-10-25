@@ -8,6 +8,7 @@ export { default as AboutSection } from './sections/AboutSection';
 export { default as ContactSection } from './sections/ContactSection';
 export { default as AboutHeroSection } from './sections/AboutHero';
 export { default as ServicesSection } from './sections/ServicesSection';
+export { default as Available } from './Available';
 export { default as ExternalImage } from './Image';
 export { default as Admonition } from './Admonition';
 export { default as AuthorCard } from './AuthorCard';

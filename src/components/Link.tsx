@@ -16,7 +16,7 @@ const ExternalLink: FC<LinkProps & AllHTMLAttributes<HTMLAnchorElement>> = ({
 		);
 	}
 	return (
-		<a target="_blank" rel="noopener noreferrer" href={href} {...rest}>
+		<a target="_blank" rel="noopener noreferrer" className="underline" href={href} {...rest}>
 			{children}
 		</a>
 	);

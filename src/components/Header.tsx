@@ -40,7 +40,9 @@ export default function Header() {
 					<div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
 						<ExternalLink
 							href="mailto:alo@bruna.design"
-							className="inline-flex items-center justify-center px-5 py-2 ml-8 text-base font-semibold text-gray-900 bg-yellow-600/40 rounded-sm glow whitespace-nowrap hover:bg-yellow-600/80 transition duration-300 ease-in-out"
+							className="inline-flex items-center justify-center rounded-md border border-transparent bg-yellow-500
+							px-6 py-1 text-base font-medium text-gray-900 hover:bg-yellow-600/30 md:py-1 md:px-4 md:text-md
+							glow whitespace-nowrap transition duration-300 ease-in-out"
 						>
 							<span className="pr-2">&rarr;</span> get in touch
 						</ExternalLink>

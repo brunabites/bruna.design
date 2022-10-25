@@ -16,7 +16,7 @@ const HeroSection = () => {
               alt="Headshot of Bruna Bites"
               objectFit="cover"
               objectPosition="top center"
-              className="rounded-full sepia-0 hover:sepia transition duration-300 ease-in-out bg-yellow-700"
+              className="rounded-full glow transition duration-300 ease-in-out bg-yellow-700"
               placeholder="blur"
               blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(205, 200))}`}
               priority

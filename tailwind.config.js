@@ -29,7 +29,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Inter var', ...fontFamily.sans]
+        sans: ['Inter var', ...fontFamily.sans],
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -54,7 +54,7 @@ module.exports = {
               color: theme('colors.gray.800'),
             },
             h3: {
-              fontWeight: '600',
+              fontWeight: '700',
               color: theme('colors.gray.800'),
             },
             'h2,h3,h4': {
@@ -97,7 +97,7 @@ module.exports = {
             strong: { color: theme('colors.gray.600') },
             blockquote: {
               color: theme('colors.gray.700'),
-              borderLeftColor: theme('colors.yellow.400'),
+              borderLeftColor: theme('colors.teal.300'),
             },
           },
         },

@@ -28,19 +28,14 @@ body,
 
   .prose :where(ul li):not(:where([class~='not-prose'] *))::marker {
     font-size: 24px;
-  }
+  } 
 
-  blockquote {
-    font-family: serif;
-  }  
   .glow:hover {
       transform: translateY(-3px);
-      box-shadow: 0 10px 20px rgba(122, 128, 0, 0.1);
   }
 
   .glow:active {
       transform: translateY(-1px);
-      box-shadow: 0 5px 10px rgba(122, 128, 0, 0.1);
   }
 
   .glow::after {
@@ -74,23 +69,20 @@ body,
       }
   }
 
-
-  .jelly:hover {
-    animation: jelly 0.5s;
+  .pulse:hover {
+    animation: pulse 1s infinite;
+    animation-fill-mode: backwards;
   }
-  @keyframes jelly {
-    0%,
-    100% {
+
+  @keyframes pulse {
+    0% {
       transform: scale(1, 1);
     }
-    25% {
-      transform: scale(0.9, 1);
-    }
     50% {
-      transform: scale(1.05, 1);
-    }
-    75% {
       transform: scale(0.95, 1);
+    }
+    100% {
+      transform: scale(1, 1);
     }
   }
 
@@ -113,11 +105,10 @@ body,
       left: unset;
       right: unset;
       max-width: 1440px;
-      margin-left: calc(50% - 700px);
-      margin-right: calc(50% - 700px);
+      margin-left: calc(50% - 720px);
+      margin-right: calc(50% - 720px);
     }
   }
-  
 
 }
 

@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import { shimmer, toBase64 } from '@/utils/image-shimmer';
+import ExternalLink from '../Link';
 import Container from '../Container';
+import Available from '../Available';
 
 const AboutHero = () => {
 	return (
@@ -37,7 +37,11 @@ const AboutHero = () => {
 						<p>
 						Then, in 2009, I joined TV1 as a Digital Designer and a while later I moved to São Paulo, with plenty of startups, with a completely different mindset. This is where I transformed into a UX Designer and later evolved into a Product Designer.</p>
 						<p>
-						Fast-forward to 2016, I moved back to Brasília, where I have been enjoying the outdoors, working for the government. That gave me the opportunity to develop my leadership and mentoring to younger designers. But I missed digital a lot! So I headed back to UX-related jobs working in companies of all sizes, like Capgemini, Banco do Brasil, <a href="https://ifood.com.br">iFood</a>, and <a href="https://pipefy.com/">Pipefy</a>.
+						Fast-forward to 2016, I moved back to Brasília, where I have been enjoying the outdoors, working for the government. That gave me the opportunity to develop my leadership and mentoring to younger designers. But I missed digital a lot! So I headed back to UX-related jobs working in companies of all sizes, like Capgemini, Banco do Brasil, <ExternalLink href="https://ifood.com.br/">
+						iFood
+						</ExternalLink>, and <ExternalLink href="https://pipefy.com/">
+						Pipefy
+						</ExternalLink>.
 						</p>
 						<p>
 						I believe a designer's job is <strong>to advocate for the end user or customer</strong> with business and development alignment. Therefore, designers should work collaboratively with product managers, researchers, copywriters, and engineers to understand the business challenges and help to achieve better solutions meeting our platform end-users and customers’ needs.
@@ -46,13 +50,21 @@ const AboutHero = () => {
 						I'm curious and code-enthusiastic (as a system designer this is important, right?!), so I can create some stuff using HTML, CSS, JavaScript, and GitHub (like this portfolio).
 						</p>
 						<p>
-						Today, I'm working at <a href="https://www.actabl.com/">Actabl</a>, converging 4 different products under the same brand, creating the first views of a Design System. Before that, I was a Design System ops at Pipefy and iFood.
+						Today, I'm working at <ExternalLink href="https://www.actabl.com/">
+						Actabl
+						</ExternalLink>, converging 4 different products under the same brand, creating the first views of a Design System. Before that, I was a Design System ops at Pipefy and iFood.
 						</p>
 						<p>
 						I try to engage with the community as much as possible, always learning from others and sometimes giving back some knowledge. So I mentor novice designers at Mentorama, and developed a website to gather Design Systems built in Brazil, encouraging the community to make libraries and files public.
 						</p>
 						<p>
-						If you'd like to work with me <a href="https://linkedin.com/in/brunabites">DM me on Linkedin </a> or just <a href="mailto:alo@bruna.design">email me.</a>
+						If you'd like to work with me <ExternalLink href="https://linkedin.com/in/brunabites">
+						DM me on Linkedin
+						</ExternalLink> or just <ExternalLink href="mailto:alo@bruna.design">
+						email me</ExternalLink>.
+						</p>
+						<p className='pt-4'>
+						<Available />
 						</p>
 					</div>
 				</div>
