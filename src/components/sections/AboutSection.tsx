@@ -20,9 +20,9 @@ const AboutSection = () => {
 							Right now, I support companies by unlocking the power of Design Systems with continuous
 							collaboration across teams, stakeholders, and users.
 						</p>
-						<p className='pt-4'>
-						<Available />
-						</p>
+						<div className="pt-4">
+							<Available />
+						</div>
 						<div className="pt-8 text-lg lg:text-2xl">
 							<ExternalLink href="/about" className="font-medium animated-underline">
 								More about what I do <span className="pl-4">&rarr;</span>
