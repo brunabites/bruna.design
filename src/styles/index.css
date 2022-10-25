@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './typography.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#__next {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --inlineCode-bg: rgba(255, 229, 100, 0.2);
+  --inlineCode-text: #1a1a1a;
+}
+
+@layer base {
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .prose :where(ul li):not(:where([class~='not-prose'] *))::marker {
+    font-size: 24px;
+  }
+
+  blockquote {
+    font-family: serif;
+  }  
+  .glow:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(122, 128, 0, 0.1);
+  }
+
+  .glow:active {
+      transform: translateY(-1px);
+      box-shadow: 0 5px 10px rgba(122, 128, 0, 0.1);
+  }
+
+  .glow::after {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      transition: all .1s;
+  }
+
+  .glow:hover::after {
+      transform: scaleX(1.2) scaleY(1.4);
+      opacity: 0;
+  }
+
+  .moveUp {
+      animation: moveInBottom 1s ease-out;
+      animation-fill-mode: backwards;
+  }
+
+  @keyframes moveInBottom {
+      0% {
+          opacity: 0;
+          transform: translateY(20px);
+      }
+
+      100% {
+          opacity: 1;
+          transform: translateY(0px);
+      }
+  }
+
+
+  .jelly:hover {
+    animation: jelly 0.5s;
+  }
+  @keyframes jelly {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1);
+    }
+    50% {
+      transform: scale(1.05, 1);
+    }
+    75% {
+      transform: scale(0.95, 1);
+    }
+  }
+
+  details > summary {
+    list-style: none;
+  }
+
+  .full-width {
+    left: 50%;
+    right: 50%;
+    margin-left: -49vw;
+    margin-right: -49vw;
+    max-width: 98vw;
+    position: relative;
+    width: 98vw;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .full-width {
+      left: unset;
+      right: unset;
+      max-width: 1440px;
+      margin-left: calc(50% - 700px);
+      margin-right: calc(50% - 700px);
+    }
+  }
+  
+
+}
+
+@layer utilities {
+  .animated-underline {
+    background-image: linear-gradient(#33333300, #33333300),
+      linear-gradient(to right, #C6CC005E, #C6CC00, #C6CC00);
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+    transition-property: background-size, color, background-color, border-color;
+  }
+  .animated-underline:hover,
+  .animated-underline:focus-visible {
+    background-size: 0 3px, 100% 3px;
+  }
+  .animated-underline-contact {
+    background-image: linear-gradient(#33333300, #33333300),
+      linear-gradient(to right, #c6cc005E, #C6CC00, #C6CC00);
+    background-size: 100% 6px, 0 6px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+    transition-property: background-size, color, background-color, border-color;
+  }
+  .animated-underline-contact:hover,
+  .animated-underline-contact:focus-visible {
+    background-size: 0 6px, 100% 6px;
+  }
+}

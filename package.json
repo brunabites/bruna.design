@@ -1,5 +1,8 @@
 {
   "name": "bruna.design.new",
+  "workspaces": [
+    "app/*"
+  ],
   "description": "Personal website for Bruna Bites built with Next.js, Typescript, Tailwind, and Contentlayer",
   "version": "1.0.0",
   "license": "MIT",
@@ -8,6 +11,7 @@
     "email": "alo@bruna.design",
     "url": "https://bruna.design"
   },
+  
   "private": true,
   "scripts": {
     "dev": "next dev",

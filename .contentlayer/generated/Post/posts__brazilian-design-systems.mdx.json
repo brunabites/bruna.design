@@ -1,0 +1,33 @@
+{
+  "title": "Brazilian Design Systems",
+  "summary": "Design Systems Brasileiros is a list (or repository) of Design Systems built in Brazil.",
+  "draft": false,
+  "last_modified": "2022-02-23T03:00:00.000Z",
+  "publish_date": "2022-02-23T03:00:00.000Z",
+  "cover_image": "/images/covers/cover-dsbr.png",
+  "tags": [
+    "design systems",
+    "side-project"
+  ],
+  "body": {
+    "raw": "\nThe other day I was building a component in Pipefy's Design System and the question arose: how did other teams in Brazil deal with the construction, structure, documentation, etc. of components? Do they struggle? Which platform do they use? Which naming conventions do those teams use?\n\nIt wasn't clear to me at all... although I've found some Medium articles about some of those questions, I didn't have a true database of Design Systems to go further on this research.\n\nThat's when I decided to take this conversation to LinkedIn and ask my network: \"Do you know any design system built here in Brazil?\". To my surprise, a lot of people showed up and sent names of systems that I (and many other colleagues) didn't know yet.\n\n> By that time was clear that I should build a repository or even list it in a public document.\n\nSo putting together my love for Design Systems, Notion, Github, and mixing with open projects (and my low knowledge of code) I built the website:  [Design Systems Brasileiros](https://designsystemsbrasileiros.com/) (in English, Brazilian Design Systems).\n\n<div className=\"container\">\n  <figure>\n    <img\n    className=\"full-width\"\n    src=\"/images/content/home-dsbr.png\"\n    alt=\"Design Systems Brasileiros - Homepage\"\n    widht=\"1280\" height=\"520\"\n    />\n    <figcaption className=\"text-sm text-center\">Design Systems Brasileiros - Homepage</figcaption>\n  </figure>\n</div>\n\nVisit [Design Systems Brasileiros](https://designsystemsbrasileiros.com/) website.",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var i in e)o(t,i,{get:e[i],enumerable:!0})},r=(t,e,i,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!p.call(t,n)&&n!==i&&o(t,n,{get:()=>e[n],enumerable:!(a=h(e,n))||a.enumerable});return t};var b=(t,e,i)=>(i=t!=null?m(u(t)):{},r(e||!t||!t.__esModule?o(i,\"default\",{value:t,enumerable:!0}):i,t)),w=t=>r(o({},\"__esModule\",{value:!0}),t);var c=y((v,l)=>{l.exports=_jsx_runtime});var B={};f(B,{default:()=>S,frontmatter:()=>D});var s=b(c()),D={title:\"Brazilian Design Systems\",summary:\"Design Systems Brasileiros is a list (or repository) of Design Systems built in Brazil.\",tags:[\"design systems\",\"side-project\"],last_modified:\"02-23-2022\",publish_date:\"02-23-2022\",cover_image:\"/images/covers/cover-dsbr.png\",draft:!1};function d(t){let e=Object.assign({p:\"p\",blockquote:\"blockquote\",a:\"a\"},t.components);return(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)(e.p,{children:\"The other day I was building a component in Pipefy's Design System and the question arose: how did other teams in Brazil deal with the construction, structure, documentation, etc. of components? Do they struggle? Which platform do they use? Which naming conventions do those teams use?\"}),`\n`,(0,s.jsx)(e.p,{children:\"It wasn't clear to me at all... although I've found some Medium articles about some of those questions, I didn't have a true database of Design Systems to go further on this research.\"}),`\n`,(0,s.jsx)(e.p,{children:`That's when I decided to take this conversation to LinkedIn and ask my network: \"Do you know any design system built here in Brazil?\". To my surprise, a lot of people showed up and sent names of systems that I (and many other colleagues) didn't know yet.`}),`\n`,(0,s.jsxs)(e.blockquote,{children:[`\n`,(0,s.jsx)(e.p,{children:\"By that time was clear that I should build a repository or even list it in a public document.\"}),`\n`]}),`\n`,(0,s.jsxs)(e.p,{children:[\"So putting together my love for Design Systems, Notion, Github, and mixing with open projects (and my low knowledge of code) I built the website:  \",(0,s.jsx)(e.a,{href:\"https://designsystemsbrasileiros.com/\",children:\"Design Systems Brasileiros\"}),\" (in English, Brazilian Design Systems).\"]}),`\n`,(0,s.jsx)(\"div\",{className:\"container\",children:(0,s.jsxs)(\"figure\",{children:[(0,s.jsx)(\"img\",{className:\"full-width\",src:\"/images/content/home-dsbr.png\",alt:\"Design Systems Brasileiros - Homepage\",widht:\"1280\",height:\"520\"}),(0,s.jsx)(\"figcaption\",{className:\"text-sm text-center\",children:\"Design Systems Brasileiros - Homepage\"})]})}),`\n`,(0,s.jsxs)(e.p,{children:[\"Visit \",(0,s.jsx)(e.a,{href:\"https://designsystemsbrasileiros.com/\",children:\"Design Systems Brasileiros\"}),\" website.\"]})]})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,s.jsx)(e,Object.assign({},t,{children:(0,s.jsx)(d,t)})):d(t)}var S=x;return w(B);})();\n;return Component;"
+  },
+  "_id": "posts/brazilian-design-systems.mdx",
+  "_raw": {
+    "sourceFilePath": "posts/brazilian-design-systems.mdx",
+    "sourceFileName": "brazilian-design-systems.mdx",
+    "sourceFileDir": "posts",
+    "contentType": "mdx",
+    "flattenedPath": "posts/brazilian-design-systems"
+  },
+  "type": "Post",
+  "readingTime": {
+    "text": "2 min read",
+    "minutes": 1.035,
+    "time": 62100,
+    "words": 207
+  },
+  "wordCount": 208,
+  "slug": "brazilian-design-systems"
+}
