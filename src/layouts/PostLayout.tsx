@@ -20,9 +20,8 @@ const PostLayout = ({ children, post }: PropsWithChildren<{ post: Post }>) => {
       <article className="prose prose-lg max-w-none flex flex-col items-center prose-headings:font-semibold prose-blockquote:font-mono prose-blockquote:gray-900 prose-blockquote:text-base prose-strong:font-medium prose-li:leading-4 prose-a:text-yellow-800">
         <div className="mx-auto mt-32 mb-16">
           <header className="justify-start mb-2 lg:text-center lg:mb-8">
-            <span className="sr-only">Published on</span>
             <div className="space-x-2 text-sm leading-6 text-gray-400 lg:text-base">
-              <span aria-hidden="true">•</span>
+              <span aria-hidden="true">⥁</span>
               <span>{post.readingTime.text}</span>
             </div>
             <div>

@@ -30,7 +30,7 @@ export default function Header() {
 						{navigation.map((item) => (
 							<ExternalLink
 								href={item.href}
-								className="text-base font-medium tracking-wide animated-underline"
+								className="text-base font-medium animated-underline"
 								key={item.name}
 							>
 								{item.name}
@@ -41,7 +41,7 @@ export default function Header() {
 						<ExternalLink
 							href="mailto:alo@bruna.design"
 							className="inline-flex items-center justify-center rounded-md border border-transparent bg-yellow-500
-							px-6 py-1 text-base font-medium text-gray-900 hover:bg-yellow-600/30 md:py-1 md:px-4 md:text-md
+							px-6 py-2 text-base font-medium text-gray-900 hover:bg-yellow-600/30 md:py-2 md:px-4 md:text-md
 							glow whitespace-nowrap transition duration-300 ease-in-out"
 						>
 							<span className="pr-2">&rarr;</span> get in touch
@@ -52,7 +52,7 @@ export default function Header() {
 
 			<Transition
 				as={Fragment}
-				enter="duration-200 ease-out"
+				enter="duration-400 ease-out"
 				enterFrom="opacity-0 scale-95"
 				enterTo="opacity-100 scale-100"
 				leave="duration-100 ease-in"
@@ -63,7 +63,7 @@ export default function Header() {
 					focus
 					className="absolute inset-x-0 top-0 z-40 p-2 transition origin-top-right transform md:hidden"
 				>
-					<div className="divide-y-2 rounded-sm shadow-lg bg-gray-50 divide-yellow-700 ring-1 ring-gray-800 ring-opacity-5">
+					<div className="divide-y rounded-sm shadow-lg bg-yellow-300 divide-yellow-600">
 						<div className="px-5 pt-5 pb-6">
 							<div className="flex items-center justify-between">
 								<div>
@@ -77,14 +77,14 @@ export default function Header() {
 									</Popover.Button>
 								</div>
 							</div>
-							<p className="text-base tracking-wide text-gray-600">Product Design, Desing Systems</p>
+							<p className="tracking-tight text-gray-800">Product Designer, Desing Systems</p>
 						</div>
 						<div className="px-5 py-6 space-y-6">
-							<div className="grid grid-cols-2 gap-y-4 gap-x-8">
+							<div className="grid grid-row-2 gap-y-4 gap-x-8">
 								{navigation.map((item) => (
 									<ExternalLink
 										href={item.href}
-										className="text-base font-normal tracking-wide text-gray-800 hover:text-gray-700 hover:underline hover:underline-offset-2 hover:decoration-2"
+										className="text-base font-medium text-gray-800 hover:text-gray-700 hover:underline hover:underline-offset-2 hover:decoration-2"
 										key={item.name}
 									>
 										{item.name}
@@ -94,9 +94,10 @@ export default function Header() {
 							<div>
 								<ExternalLink
 									href="mailto:alo@bruna.design"
-									className="flex items-center justify-center w-full px-4 py-2 text-base font-medium tracking-wider text-white bg-gray-800 border border-transparent rounded-sm shadow-sm hover:bg-gray-600"
+									className="flex items-center justify-center w-full rounded-md border border-transparent bg-yellow-500
+									px-4 py-2 text-base font-medium text-gray-900 hover:bg-yellow-600/30 whitespace-nowrap"
 								>
-									Contact Bruna
+									<span className="pr-2">&rarr;</span> get in touch
 								</ExternalLink>
 							</div>
 						</div>

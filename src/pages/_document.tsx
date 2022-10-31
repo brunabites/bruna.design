@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
           <meta content="#ffffff" name="msapplication-TileColor" />
           <meta charSet="utf-8" />
         </Head>
-        <body className="font-sans antialiased">
+        <body className="font-sans antialiased text-gray-900">
           <Main />
           <NextScript />
         </body>

@@ -92,14 +92,14 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
                           alt={"Cover for " + post.title}
                           objectFit="cover"
                           objectPosition="top center"
-                          className="rounded-lg opacity-40 grayscale mix-blend-multiply bg-yellow-500/30 hover:mix-blend-normal hover:filter-none hover:opacity-100 hover:-translate-y-0.5 transition duration-300 ease-in-out"
+                          className="rounded-lg brightness-110 hover:brightness-100 hover:-translate-y-0.5 transition duration-300 ease-in-out"
                           placeholder="blur"
                           blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(410, 768))}`}
                           priority
                         />
                       </div>
                     </ExternalLink>
-                    <p className="mt-1 text-xl text-gray-600">{post.summary}</p>
+                    <p className="mt-1 text-xl">{post.summary}</p>
                   </div>
                 ))}
               </div>

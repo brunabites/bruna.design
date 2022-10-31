@@ -4,6 +4,7 @@ import {
   AboutSection,
   ContactSection,
   Container,
+  AnimatedBg,
   HeroSection,
   Available,
   ExternalLink,
@@ -46,11 +47,12 @@ const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
           cardType: config.seo.twitter.cardType,
         }}
       />
+      {/* <AnimatedBg /> */}
       <Container>
         <HeroSection />
         <AboutSection />
         <Container>
-          <div className="py-16">
+          <div className="pb-16 pt-20" id="work">
             <div className="flex flex-col lg:flex-row lg:items-baseline lg:justify-between">
               <span className="max-w-sm pt-0 pb-4 mr-0 text-xl font-medium lg:pb-0 lg:pt-4 lg:mr-40 lg:w-28">
                 work
@@ -75,14 +77,14 @@ const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
                             alt={"Cover for " + post.title}
                             objectFit="cover"
                             objectPosition="top center"
-                            className="rounded-lg opacity-40 grayscale mix-blend-multiply bg-yellow-500/30 hover:mix-blend-normal hover:filter-none hover:opacity-100 hover:-translate-y-0.5 transition duration-300 ease-in-out"
+                            className="rounded-lg brightness-110 hover:brightness-100 hover:-translate-y-0.5 transition duration-300 ease-in-out"
                             placeholder="blur"
                             blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(410, 768))}`}
                             priority
                           />
                         </div>
                       </ExternalLink>
-                      <p className="mt-1 text-xl text-gray-600">{post.summary}</p>
+                      <p className="mt-1 text-xl">{post.summary}</p>
                     </div>
                   ))}
                 </div>

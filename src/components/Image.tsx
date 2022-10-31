@@ -15,7 +15,7 @@ export default function ExternalImage({
 }: ExternalImageProps) {
   return (
     <figure className="flex flex-col items-center justify-center ">
-      <span className="border rounded-md">
+      <span className="border rounded-md image-container">
         <Image
           objectFit="cover"
           objectPosition="center center"
