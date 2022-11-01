@@ -32,12 +32,12 @@ const AboutHero = () => {
 					</span>
 					<div className="max-w-md space-y-2 text-lg lg:pr-24 lg:max-w-2xl lg:text-xl">
 						<p>
-						I have been working for a little over 20 years. At first, I mainly worked as a Graphic Designer or Art Director, while struggling to find my true passion, which I realized later was the digital world.
+						I have been working for a little over 20 years. At first, I mainly worked as a Graphic Designer or Art Director, while struggling to find my true passion, which I realized later was the digital world.
 						</p>
 						<p>
-						Then, in 2009, I joined TV1 as a Digital Designer and a while later I moved to São Paulo, with plenty of startups, with a completely different mindset. This is where I transformed into a UX Designer and later evolved into a Product Designer.</p>
+						Then, in 2009, I joined TV1 as a Digital Designer and a while later I moved to São Paulo, with plenty of startups, with a completely different mindset. This is where I transformed into a UX Designer and later evolved into a Product Designer.</p>
 						<p>
-						Fast-forward to 2016, I moved back to Brasília, where I have been enjoying the outdoors, working for the government. That gave me the opportunity to develop my leadership and mentoring to younger designers. But I missed digital a lot! So I headed back to UX-related jobs working in companies of all sizes, like Capgemini, Banco do Brasil, <ExternalLink href="https://ifood.com.br/">
+						Fast-forward to 2016, I moved back to Brasília, where I have been enjoying the outdoors, working for the government. That gave me the opportunity to develop my leadership and mentoring to younger designers. But I missed digital a lot! So I headed back to UX-related jobs working in companies of all sizes, like Capgemini, Banco do Brasil, <ExternalLink href="https://ifood.com.br/">
 						iFood
 						</ExternalLink>, and <ExternalLink href="https://pipefy.com/">
 						Pipefy
@@ -55,7 +55,7 @@ const AboutHero = () => {
 						</ExternalLink>, converging 4 different products under the same brand, creating the first views of a Design System. Before that, I was a Design System ops at Pipefy and iFood.
 						</p>
 						<p>
-						I try to engage with the community as much as possible, always learning from others and sometimes giving back some knowledge. So I mentor novice designers at Mentorama, and developed a website to gather Design Systems built in Brazil, encouraging the community to make libraries and files public.
+						I try to engage with the community as much as possible, always learning from others and sometimes giving back some knowledge. So I mentor novice designers at Mentorama, and developed a website to gather Design Systems built in Brazil, encouraging the community to make libraries and files public.
 						</p>
 						<p>
 						If you'd like to work with me <ExternalLink href="https://linkedin.com/in/brunabites">
