@@ -28,6 +28,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+bruna.design.new.code-workspace
 
 # vercel
 .vercel
