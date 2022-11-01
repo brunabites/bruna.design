@@ -1,4 +1,3 @@
-import { config } from '@/config';
 import Avatar from './Avatar';
 import ExternalLink from './Link';
 

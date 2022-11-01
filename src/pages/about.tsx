@@ -2,7 +2,6 @@ import {
   AboutHeroSection,
   ContactSection,
   Container,
-  ServicesSection,
   WebWrapper,
 } from '@/components';
 import { config } from '@/config';
@@ -46,7 +45,6 @@ const About: NextPage = () => {
       />
       <Container>
         <AboutHeroSection />
-        {/* <ServicesSection /> */}
         <ContactSection />
       </Container>
     </WebWrapper>

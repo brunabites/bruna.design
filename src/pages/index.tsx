@@ -4,9 +4,7 @@ import {
   AboutSection,
   ContactSection,
   Container,
-  AnimatedBg,
   HeroSection,
-  Available,
   ExternalLink,
   WebWrapper,
 } from '@/components';
@@ -47,7 +45,6 @@ const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
           cardType: config.seo.twitter.cardType,
         }}
       />
-      {/* <AnimatedBg /> */}
       <Container>
         <HeroSection />
         <AboutSection />

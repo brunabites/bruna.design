@@ -1,5 +1,4 @@
 import ExternalLink from './Link';
-import React, { useState, useRef } from 'react';
 
 const Logo = () => {
 	return (

@@ -5,7 +5,6 @@ export { default as Logo } from './Logo';
 export { default as WebWrapper } from './WebWrapper';
 export { default as HeroSection } from './sections/HeroSection';
 export { default as AboutSection } from './sections/AboutSection';
-export { default as AnimatedBg } from './AnimatedBg';
 export { default as ContactSection } from './sections/ContactSection';
 export { default as AboutHeroSection } from './sections/AboutHero';
 export { default as ServicesSection } from './sections/ServicesSection';
