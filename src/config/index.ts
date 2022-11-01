@@ -4,7 +4,7 @@ export const config = {
 		sitename: 'Bruna.Design',
 		url: 'https://bruna.design',
 		description:
-			'Website and online portfolio of Bruna Bites, a Product Designer (Design System), living in Brasilia - Brazil.',
+			'Bruna Bites Portfolio, a Product Designer focused on Design Systems, living in Brasília - Brazil.',
 		repo: 'https://github.com/brunabites',
 		author: 'Bruna Bites',
 		avatar: 'https://bruna.design/images/bruna-bites.png',
@@ -21,19 +21,19 @@ export const config = {
 		title: 'Bruna Bites » Product Design, Design Systems',
 		defaultTitle: 'Bruna Bites » Design, Design Systems, UI Design',
 		description:
-			'Website and online portfolio of Bruna Bites, a Product Designer (Design System), living in Brasilia - Brazil.',
+			'Bruna Bites Portfolio, a Product Designer focused on Design Systems, living in Brasília - Brazil.',
 		canonical: 'https://bruna.design',
 		locale: 'en_US',
 		openGraph: {
 			url: 'https://bruna.design',
 			title: 'Bruna Bites » Product Design, Design Systems',
 			description:
-				'Website and online portfolio of Bruna Bites, a Product Designer (Design System), living in Brasilia - Brazil.',
+				'Bruna Bites Portfolio, a Product Designer focused on Design Systems, living in Brasília - Brazil.',
 			type: 'website',
 		},
 		twitter: {
-			handle: '@BrunaBites',
-			site: '@BrunaBites',
+			handle: '@brunabites',
+			site: '@brunabites',
 			cardType: 'summary_large_image',
 		},
 		image: 'https://bruna.design/images/og-default.jpg',
