@@ -5,11 +5,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-          <link rel="manifest" href="/favicon/site.webmanifest" />
-          <link rel="shortcut icon" href="/favicon/favicon.ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+          <link rel="manifest" href="/favicons/site.webmanifest" />
+          <link rel="shortcut icon" href="/favicons/favicon.ico" />
 
           <meta content="#ffffff" name="theme-color" />
           <meta content="#ffffff" name="msapplication-TileColor" />
