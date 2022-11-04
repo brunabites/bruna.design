@@ -1,7 +1,10 @@
 import React, { SVGProps } from 'react';
-import ExternalLink from './Link';
-import Container from './Container';
-import { ScrollToTop } from './Scrolltotop';
+import {
+	Container,
+	ExternalLink,
+	ScrollToTop,
+  } from '@/components';
+
 import { config } from '@/config';
 
 const navigation = [
