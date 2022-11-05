@@ -5,6 +5,7 @@ import Pre from './Pre';
 import Emoji from './Emoji';
 import Admonition from './Admonition';
 import FeatureCard from './FeatureCard';
+import CaseCard from './CaseCard';
 
 const MDXComponents = {
 	a: ExternalLink,
@@ -14,6 +15,7 @@ const MDXComponents = {
 	Emoji,
 	Admonition,
 	FeatureCard,
+	CaseCard,
 };
 
 export default MDXComponents;

@@ -19,13 +19,16 @@ const PostLayout = ({ children, post }: PropsWithChildren<{ post: Post }>) => {
     <Container>
       <article className="prose prose-lg max-w-none flex flex-col items-center prose-headings:font-semibold prose-blockquote:font-mono prose-blockquote:gray-900 prose-blockquote:text-base prose-strong:font-medium prose-li:leading-4 prose-a:text-yellow-800">
         <div className="mx-auto mt-32 mb-16">
-          <header className="justify-start mb-2 lg:text-center lg:mb-8">
+          <header className="justify-start mb-2 lg:text-center lg:mb-6">
             <div className="space-x-2 text-sm leading-6 text-gray-400 lg:text-base">
               <span aria-hidden="true">⥁</span>
               <span>{post.readingTime.text}</span>
             </div>
             <div>
               <PostTitle>{post.title}</PostTitle>
+              <p className="max-w-full mx-auto mt-1 font-light text-base text-gray-700 text-left md:text-lg lg:max-w-2xl lg:text-center lg:text-xl">
+                {post.summary}
+              </p>
               <div>
                 <Image
                   src={post.cover_image}
@@ -38,13 +41,10 @@ const PostLayout = ({ children, post }: PropsWithChildren<{ post: Post }>) => {
                   priority
                 />
               </div>
-              <p className="max-w-2xl mx-auto mt-1 font-light text-base text-gray-700 lg:text-xl">
-                {post.summary}
-              </p>
             </div>
           </header>
 
-          <div className="max-w-3xl flex flex-col mx-auto pt-4 pb-8">
+          <div className="max-w-3xl flex flex-col mx-auto pt-4 pb-4">
             {children}
           </div>
 
