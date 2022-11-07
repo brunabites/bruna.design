@@ -55,7 +55,7 @@ const AboutHero = () => {
 						</ExternalLink>, converging 4 different products under the same brand, creating the first views of a Design System. Before that, I was a Design System ops at Pipefy and iFood.
 						</p>
 						<p>
-						I try to engage with the community as much as possible, always learning from others and sometimes giving back some knowledge. So I mentor novice designers at Mentorama, and developed a website to gather Design Systems built in Brazil, encouraging the community to make libraries and files public.
+						I try to engage with the community as much as possible, always learning from others and sometimes giving back some knowledge. So I mentor novice designers at Mentorama, and developed a website to gather <ExternalLink href="https://designsystemsbrasileiros.com/">Design Systems built in Brazil</ExternalLink>, encouraging the community to make libraries and files public.
 						</p>
 						<p>
 						If you'd like to work with me <ExternalLink href="https://linkedin.com/in/brunabites">

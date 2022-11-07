@@ -56,7 +56,7 @@ const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
               </span>
               <div className="flex flex-col items-start">
                 <h2 className="max-w-sm mb-8 text-4xl font-medium lg:max-w-3xl lg:text-8xl">
-                  latest cases
+                  selected cases
                 </h2>
 
                 <div className="max-w-3xl divide-y">

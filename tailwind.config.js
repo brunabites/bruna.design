@@ -30,6 +30,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter var', ...fontFamily.sans],
+        mono: ['Lilex', ...fontFamily.mono],
       },
       typography: (theme) => ({
         DEFAULT: {
