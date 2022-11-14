@@ -1,0 +1,137 @@
+---
+title: 'iFood Financial Dashboard'
+summary: 'Designing a new financial dashboard for the largest foodtech in latin america.'
+publish_date: '03-24-2022'
+last_modified: '03-24-2022'
+cover_image: '/images/covers/cover-ifood-financial@2x.png'
+tags: ['user research', 'user interface']
+draft: false
+---
+<CaseCard role="Design Lead" timeline="3 months" tools="Spreadsheets, Miro, Hotjar, UserStory, Figma" platform="Website">
+  <h3>Designing a new financial dashboard for the largest foodtech in latin america</h3>
+    The iFood payments area was structuring a new billing framework. At the same time the pandemic started and thousands of new partners arrived. 
+
+    Our **biggest question was**: Do these new partners have an affinity with finance? Can they properly read the information on the financial dashboard of the Portal?
+</CaseCard>
+
+<h4 className="mt-0 border-b border-yellow-800/30">Overview</h4>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-4 text-base lg:text-lg">
+  <div>
+    <h5>Problem</h5>
+    How to scale the interface for new financial operations? How to scale and improve the experience based on the new partner's financial planning journey?
+  </div>
+  <div>
+    <h5>Outcome</h5>
+    After research, I've created a new dashboard, so partners could be more assertive with noticeable dates and values.
+  </div>
+</div>
+
+## Context and Motivation
+
+The iFood payments area was structuring a new billing framework. With this, there would be a likely increase in the density of payments, due to several reasons. Because of this, iFood Financial dashboard needed a review for not meeting the new scale that would arrive.
+
+At the same time, the Covid pandemic started. During this time, many new partners, mainly smalls business (SMB)[^1] arrived that represent a large piece of sales. We knew very little about them. So, it was time to learn.
+
+<Image
+  src="/images/content/ifood-graph-growth@2x.png"
+  alt="Partners and Sales growth in 2020"
+  caption="Partners and Sales growth in 2020"
+  width={1280}
+  height={520}
+/>
+
+Financial Squad set off on this journey to understand how to improve this interface, serving new and old partners. Also answer those questions:
+  - How to scale the interface for new financial operations?
+  - How to scale and improve the experience based on the new partner's financial planning journey?
+
+## Process: design, product and engineering
+
+At iFood, each designer leads the Product Design aspect of their squad, so I led this venture with the support of my Design Manager. By my side, I had a Product Manager and a Delivery Manager to contribute with the business and technical aspects and a great team of engineers.
+
+Our first step was to deep dive in researching feedback, support tickets, and community data we already had. 
+
+The initial findings point to things we already had in mind:
+  - A slight increase in ticket openings among new partners, pointed that they were having trouble with the date and status of the transfer;
+  - In general, partners didn't have a real-time view of its receipts, which made it difficult to decide: buy products x provision cash;
+  - There was a big learning curve for new partners;
+  - There was a lack of visibility on total sales made x transfers.
+  - The second step was to understand a little about how our partners solved the day-to-day problems of the business. 
+
+During this process, the PM worked with me on research and bringing business pains, while engineers focused on discovering opportunities to scale and data architecture.
+
+### Insights
+  - All the partners interviewed mentioned the lack of a clear vision of the future: "How much and when there would be new transfers? "What can I buy tomorrow?".
+  - iFood's transfer reports were different from the mental models users had, whether spreadsheets or management systems.
+  - Most reports had a primary view and a detail view if users needed to find specifics in it.
+  - Many of the new partners said they watched videos on YouTube to understand how the panel worked and still had difficulty.
+  - Many were unfamiliar with either commerce or finance.
+
+<FullImage
+  src="/images/content/ifood-financial-insights@2x.png"
+  alt="iFood Financial Dashboard - Insights"
+  width={1250}
+  height={495}
+/>
+
+### Benchmarking
+Then, we studied big competitors such as Uber Eats, Rappi, and some tools our partners mentioned out during the interviews, to get to understand how they layer out information and structure their dashboard. About that time, I started to sketch some ideas and also created spreadsheets with a new financial model (since we’re talking about finances, we MUST have Excel, right?!).
+
+<FullImage
+  src="/images/content/ifood-financial-sketches@2x.png"
+  alt="iFood Financial Dashboard - Sketches"
+  caption="Sheets and Sketches"
+  width={1200}
+  height={670}
+/>
+
+## Solution
+
+As the final solution we opted for a 3 box view of financial details, as a snapshot of different moments in partners sales: past, present and future. The goal was to provide views of how much did the partner sold, how much would receive today and how much would receive in the future, so ones could have a better provision of future gains. A concern that we had was to include several help points in the interface, using content and tooltips to explain items that we encountered the most doubts during the research.
+
+We also opted to turn the transfer list into a spreadsheet, to keep the familiar look which many partners used.
+
+<FullImage
+  src="/images/content/ifood-financial-desktop@2x.png"
+  alt="iFood Financial Dashboard - Desktop"
+  caption="iFood Financial Dashboard - Desktop"
+  width={1920}
+  height={1164}
+/>
+
+<FullImage
+  src="/images/content/ifood-financial-mobile@2x.png"
+  alt="iFood Financial Dashboard - Mobile Responsive"
+  caption="iFood Financial Dashboard - Mobile Responsive"
+  width={1920}
+  height={988}
+/>
+
+<FullImage
+  src="/images/content/ifood-empty-states@2x.png"
+  alt="Empty states for iFood Financial Dashboard"
+  caption="Empty states for iFood Financial Dashboard"
+  width={3840}
+  height={3316}
+/>
+
+## Future steps
+I left the squad before this project it concluded, since Engineering was still figuring out future data models and structure. My following steps after hand-off intended to:
+  - Create an onboarding and walkthrough for beta testers;
+  - Create FAQ and video tutorials;
+  - Conduct workshops for customer service and commercial teams.
+
+### Learnings...
+  - The team learned plenty of things that no longer worked in the context of Finance, and also about the new partners;
+  - Involvement with the engineering team was key in defining data and structure;
+  - We drew the attention of stakeholders to the complexity of the issue and gained support;
+  - Conducting some types of research methods remotely was very challenging, as you might often miss certain off-screen cues like facial expressions;
+  - I gained a lot of depth in the hand-off process.
+
+### and reflections
+  - When in a very complex context, insisting on a more simplified view and not just on what the business team thinks, can bring calm;
+  - Have gone to a beta before, using a simpler MVP (even with an Excel spreadsheet!) would help us a lot in definition;
+  - Despite not having a closure, the final delivery answered many of our initial questions.
+
+> If you learned anything, it wasn't a complete fail!
+
+[^1]: *The pandemic caused 100,000 new establishments to register on the platform. Among them, many who were unfamiliar with digitalization and had to adapt to continue operating during the health crisis. Source: [Coronavírus: como o iFood aprendeu a lidar com 100 mil novos parceiros e 18 milhões de pedidos a mais, Época Negócios](https://epocanegocios.globo.com/Podcast/Negnews/noticia/2021/02/coronavirus-ifood.html)
