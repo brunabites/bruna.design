@@ -20,19 +20,19 @@ const CaseCard = ({ children, role, timeline, tools, platform }: CaseCardProps) 
 					Info
 				</h4>
 				<div className="grid grid-cols-2 gap-8 md:grid-cols-1 md:mb-2 md:gap-3 text-base lg:text-lg">
-					<div className="pt-2 not-prose">
+					<div className="pt-2">
 						<p className="py-0 my-0 font-medium">Role</p>
 						<p className="py-0 my-0">{role}</p>
 					</div>
-					<div className="pt-2 not-prose">
+					<div className="pt-2">
 						<p className="py-0 my-0 font-medium">Timeline</p>
 						<p className="py-0 my-0">{timeline}</p>
 					</div>
-					<div className="pt-2 not-prose">
+					<div className="pt-2">
 						<p className="py-0 my-0 font-medium">Tools</p>
 						<p className="py-0 my-0">{tools}</p>
 					</div>
-					<div className="pt-2 not-prose">
+					<div className="pt-2">
 						<p className="py-0 my-0 font-medium">Platform</p>
 						<p className="py-0 my-0">{platform}</p>
 					</div>

@@ -1,5 +1,6 @@
 import { PropsWithChildren } from 'react';
 import Image from 'next/image';
+import dayjs from 'dayjs';
 import { Post } from 'contentlayer/generated';
 
 import {
@@ -10,13 +11,13 @@ import {
   Tag,
   AuthorCard,
   ExternalLink,
-  FullImage
 } from '@/components';
+import { RiArrowLeftLine } from 'react-icons/ri';
 
 const PostLayout = ({ children, post }: PropsWithChildren<{ post: Post }>) => {
   return (
     <Container>
-      <article className="prose prose-lg max-w-none flex flex-col items-center prose-p:my-4 prose-ul:ml-8 prose-ul:my-1 prose-ol:ml-8 prose-ol:my-1 prose-li:my-1 prose-headings:font-semibold prose-blockquote:not-italic prose-blockquote:gray-900 prose-blockquote:text-xl prose-strong:font-semibold">
+      <article className="prose prose-lg max-w-none flex flex-col items-center prose-headings:font-semibold prose-blockquote:not-italic prose-blockquote:font-mono prose-blockquote:gray-900 prose-blockquote:text-xl prose-strong:font-medium prose-li:leading-4 prose-a:text-yellow-800">
         <div className="mx-auto mt-32 mb-16">
           <header className="justify-start mb-2 lg:text-center lg:mb-6">
             <div className="space-x-2 text-sm leading-6 text-gray-400 lg:text-base">
@@ -36,10 +37,9 @@ const PostLayout = ({ children, post }: PropsWithChildren<{ post: Post }>) => {
                   alt={"Cover for " + post.title}
                   objectFit="cover"
                   objectPosition="top center"
-                  className="rounded-md hover:-translate-y-0.5 transition duration-300 ease-in-out bg-gray-400"
+                  className="rounded-md hover:-translate-y-0.5 transition duration-300 ease-in-out bg-yellow-500"
                   priority
                 />
-
               </div>
             </div>
           </header>

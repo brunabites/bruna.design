@@ -93,12 +93,12 @@ module.exports = {
             },
             hr: { borderColor: theme('colors.gray.300') },
             'ul li::marker': {
-              color: theme('colors.gray.400'),
+              color: theme('colors.gray.600'),
             },
-            strong: { color: theme('colors.gray.900') },
+            strong: { color: theme('colors.gray.600') },
             blockquote: {
-              color: theme('colors.gray.900'),
-              borderLeftColor: theme('colors.gray.400'),
+              color: theme('colors.gray.700'),
+              borderLeftColor: theme('colors.teal.300'),
             },
           },
         },

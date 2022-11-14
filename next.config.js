@@ -55,11 +55,6 @@ const securityHeaders = [
   },
 ];
 const nextConfig = {
-  experimental: {
-    images: {
-      layoutRaw: true,
-    },
-  },
   swcMinify: true,
   reactStrictMode: true,
   images: {
