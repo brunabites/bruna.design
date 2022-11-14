@@ -11,6 +11,7 @@ export { default as ServicesSection } from './sections/ServicesSection';
 export { default as Available } from './Available';
 export { default as ScrollToTop } from './ScrollToTop';
 export { default as ExternalImage } from './Image';
+export { default as FullImage } from './ImageFull';
 export { default as Admonition } from './Admonition';
 export { default as AuthorCard } from './AuthorCard';
 export { default as Pre } from './Pre';
