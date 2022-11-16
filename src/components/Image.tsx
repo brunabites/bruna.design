@@ -24,7 +24,7 @@ export default function ExternalImage({
           width={width}
           height={height}
           placeholder="blur"
-          blurDataURL="data:image/webp;base64,UklGRiwAAABXRUJQVlA4TCAAAAAvBYACEA8wgAM4gPMf8FDUthEb67j1LISL6H9QdflciQ=="
+          blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
           {...rest}
         />
       <figcaption className="pt-2 text-sm text-center text-gray-500">
