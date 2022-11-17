@@ -1,4 +1,4 @@
-import ExternalImage from './Image';
+import InternalImage from './Image';
 import FullImage from './ImageFull';
 import Image from 'next/image'
 import ExternalLink from './Link';
@@ -14,7 +14,7 @@ const MDXComponents = {
 	a: ExternalLink,
 	pre: Pre,
 	Image,
-	ExternalImage,
+	InternalImage,
 	FullImage,
 	Emoji,
 	Admonition,
