@@ -17,7 +17,7 @@ export default function FullImage({
     <div className="container">
       <figure className="items-center justify-center not-prose">
           <Image
-            className="full-width rounded-md"
+            className="full-width rounded-md transition duration-300 ease-in-out bg-slate-200"
             layout="raw"
             alt={alt}
             width={width}
@@ -26,7 +26,7 @@ export default function FullImage({
             blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
             {...rest}
           />
-        <figcaption className="pt-2 text-sm text-center text-gray-500">
+        <figcaption className="pt-2 text-sm text-center text-slate-500">
           {caption}
         </figcaption>
       </figure>

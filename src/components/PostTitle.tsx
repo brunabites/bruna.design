@@ -12,7 +12,7 @@ export default function Post({ center, children, ...rest }: PostTitleProps) {
 		<h1
 			className={classNames(
 				center ? 'mx-auto' : '',
-				'max-w-6xl mb-6 mt-4 text-3xl font-medium leading-9 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 lg:text-6xl moveUp'
+				'max-w-6xl mb-6 mt-4 text-3xl font-medium text-slate-900 leading-9 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 lg:text-6xl moveUp'
 			)}
 			{...rest}
 		>

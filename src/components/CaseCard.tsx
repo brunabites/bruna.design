@@ -12,14 +12,14 @@ const CaseCard = ({ children, role, timeline, tools, platform }: CaseCardProps) 
 	return (
 		<div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-4 text-base lg:text-lg">
 			<div className="md:col-span-3 mb-8 text-base lg:text-lg">
-				<h4 className="border-b border-yellow-800/30">Project</h4>
-				{children}
+				<h4 className="border-b border-slate-200">Project</h4>
+				<div>{children}</div>
 			</div>
 			<div className="mb-8 text-base lg:text-lg">
-				<h4 className="border-b border-yellow-800/30">
+				<h4 className="border-b border-slate-200">
 					Info
 				</h4>
-				<div className="grid grid-cols-2 gap-8 md:grid-cols-1 md:mb-2 md:gap-3 text-base lg:text-lg">
+				<div className="grid grid-cols-2 gap-8 md:grid-cols-1 md:mb-2 md:gap-3 text-base lg:text-lg not-prose">
 					<div className="pt-2">
 						<p className="py-0 my-0 font-medium">Role</p>
 						<p className="py-0 my-0">{role}</p>

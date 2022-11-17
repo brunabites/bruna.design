@@ -27,6 +27,13 @@ module.exports = {
           800: '#3D4000',
           900: '#181A00',
         },
+        teal: {
+          50: '#E5FFFB',
+         100: '#99FFEF',
+         200: '#00FFD6',
+         300: '#00F5CD',
+         400: '#00E0BC',
+       },
       },
       fontFamily: {
         sans: ['Inter var', ...fontFamily.sans],
@@ -35,42 +42,42 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.800'),
+            color: theme('colors.slate.900'),
             a: {
-              color: theme('colors.yellow.800'),
+              color: theme('colors.slate.900'),
               fontWeight: '500',
               '&:hover': {
-                color: theme('colors.yellow.900'),
+                color: theme('colors.slate.900'),
               },
               code: { color: theme('colors.purple.400') },
             },
             h1: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.800'),
+              color: theme('colors.slate.800'),
             },
             h2: {
               fontWeight: '700',
               letterSpacing: theme('letterSpacing.tight'),
-              color: theme('colors.gray.800'),
+              color: theme('colors.slate.900'),
             },
             h3: {
               fontWeight: '700',
-              color: theme('colors.gray.800'),
+              color: theme('colors.slate.900'),
             },
             'h2,h3,h4': {
               'scroll-margin-top': spacing[32],
             },
             'h4,h5,h6': {
-              color: theme('colors.gray.800'),
+              color: theme('colors.slate.900'),
             },
             pre: {
-              backgroundColor: theme('colors.blueGray.900'),
+              backgroundColor: theme('colors.slate.900'),
             },
             code: {
-              color: theme('colors.gray.800'),
+              color: theme('colors.slate.800'),
               fontWeight: '400',
-              backgroundColor: theme('colors.stone.100'),
+              backgroundColor: theme('colors.slate.100'),
               paddingLeft: '4px',
               paddingRight: '4px',
               paddingTop: '2px',
@@ -84,21 +91,21 @@ module.exports = {
               content: '',
             },
             details: {
-              backgroundColor: theme('colors.gray.50'),
+              backgroundColor: theme('colors.slate.50'),
               paddingLeft: '4px',
               paddingRight: '4px',
               paddingTop: '4px',
               paddingBottom: '4px',
               borderRadius: '0.5rem',
             },
-            hr: { borderColor: theme('colors.gray.300') },
+            hr: { borderColor: theme('colors.slate.200') },
             'ul li::marker': {
-              color: theme('colors.gray.600'),
+              color: theme('colors.slate.600'),
             },
-            strong: { color: theme('colors.gray.600') },
+            strong: { color: theme('colors.slate.600') },
             blockquote: {
-              color: theme('colors.gray.700'),
-              borderLeftColor: theme('colors.teal.300'),
+              color: theme('colors.slate.700'),
+              borderLeftColor: theme('colors.purple.300'),
             },
           },
         },

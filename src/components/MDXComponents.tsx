@@ -7,7 +7,9 @@ import Emoji from './Emoji';
 import Admonition from './Admonition';
 import FeatureCard from './FeatureCard';
 import CaseCard from './CaseCard';
-
+import LocalVideo from './Video';
+import Tooltip
+ from './Tooltip';
 const MDXComponents = {
 	a: ExternalLink,
 	pre: Pre,
@@ -18,6 +20,8 @@ const MDXComponents = {
 	Admonition,
 	FeatureCard,
 	CaseCard,
+	LocalVideo,
+	Tooltip,
 };
 
 export default MDXComponents;
