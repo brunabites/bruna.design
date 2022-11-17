@@ -1,0 +1,130 @@
+---
+title: 'Inline alert component'
+summary: 'My process to design and release a component to a design system.'
+publish_date: '07-24-2021'
+last_modified: '07-24-2021'
+cover_image: '/images/covers/cover-impulso@2x.png'
+tags: ['design system', 'user interface']
+---
+<CaseCard role="Design Lead" timeline="3 months" tools="Spreadsheets, Miro, Hotjar, UserStory, Figma" platform="Website">
+  <h3>My process to design and release a component to a design system</h3>
+    I was designing the experience for the Pipefy message area and in the flow, there would be a validation that could stop messages from being sent if some requirements weren't met. The issue was that errors were too hard to be solved because alert messages were generic and didn't point to the right context. Moreover, it would prevent the user from taking an essential action to move forward with their work. After consulting other designers and conducting research, I decided to try a new component to overcome this issue.
+</CaseCard>
+
+<h4 className="mt-0 border-b border-slate-200">Overview</h4>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-4 text-base lg:text-lg">
+  <div>
+    <h5>Problem</h5>
+    Lorem ipsum dolor sur amet
+  </div>
+  <div>
+    <h5>Outcome</h5>
+    Lorem ipsum dolor sur amet
+  </div>
+</div>
+
+<ExternalImage
+  src="/images/content/pipefy-alert-process.gif"
+  alt="My process to create components"
+  width={962}
+  height={284}
+/>
+
+When building a component <Tooltip content="Hello World" link="this text is information"/>, you need to think about quality, the design of the component, and also the needs of the product and how you're going to use it. Practice and collaboration help to make the process more interesting, rich, and effective. The process I used at Pipefy is based on what I've learned with [this article](https://medium.com/eightshapes-llc/system-features-step-by-step-e69c90982630) from the Nathan Curtis, from EightShapes. Here are the steps:
+
+1. **Plan & Discover**
+    - Definition of scope
+    - Component research and auditing
+2. **Design**
+    - Explorations and reviews
+    - Accessibility research (this one phase happens during the previous one)
+3. **Build**
+    -  Design Specs and Figma component build
+4. **Documentation**
+    - Usage guidelines and documentation
+5. **Ship it!**
+    - Publish component in Figma and repository
+    - Release notes and communicate
+
+----
+
+## 1. Plan & Discover
+
+When building a component (or anything, really), I like to start by finding as much information about the issue as I can. At this phase, it was important to understand user journeys, scenarios, why we need it, what it is to do.
+
+- When will a user interact with this component?
+- What is the user trying to achieve with this component?
+- What is the user's mood when using this component?
+- What does it do, and what doesn’t it do?
+
+Pipefy often used the “alert” component to communicate feedback of system-level items (server error, input error, etc.) but those lack of content when needed to show complex info or when an action was required. Moreover, it happened far from where the issue was, like in a specific field of a form.
+
+While researching for feedback messages, I found about the “inline alert”. The general idea was to have a message that shows up in the content area as close to the thing it's about as possible.
+
+I then consulted other designers to see if there were any use cases in which we could use the inline alert in our platform. Immediately, I encountered interesting, valid use cases.
+
+### **Examples:**
+
+- The alert may let the user know that all inputs are required and direct them to offending inputs.
+- An alert next to the field of the form that indicates the password complies with criteria could be used to create a new password.
+
+### **Types of alerts:**
+
+- Positive
+- Informative
+- Cautionary
+- Negative
+
+## 2. Design
+
+### Component research and auditing
+
+Now that I knew what this component could do, I also had a pretty good idea of what issues it could solve. At this point, I like to seek how other design systems are building similar components. It's nice to include engineering at this point, to start reviewing API, reduce constraints, getting tips on how it should work.
+
+A great surprise was to realize that other design systems had the same component I originally thought about and, based, on the usage guidelines, they had similar problems as well.
+
+I like to check the [component Gallery](https://component.gallery/) because it is a great way to find components, as it lists a lot of them and other names they may go by.
+
+### Design explorations and reviews
+
+Yey! Figma's time! Since I knew a lot about this component and how it worked, it was time to have some fun at Figma.
+
+I like to build a full version of the component, including all properties it may have, and then break up in parts and states. This way, I can figure out the properties and smaller parts, a.k.a. [nested components](https://www.figma.com/best-practices/component-architecture/nested-components/) I will use when delivering the final component to the Figma library.
+
+It's important to cover the look of the component, but also its behavior and interaction; therefore a prototype is essential.
+
+Once I have those artifacts, it was time to gather feedback.
+
+I've presented the component in our design weekly (meeting with all designers) and asked for considerations and how they would use it. Another presentation was made to some engineers and PMs to gather feedback as well. Engineers always deliver great contributions! Rely on them.
+
+### Accessibility research (this one phase happens during the previous one and the next one)
+
+While designing is crucial to review the component to attend to minimal accessibility requirements. I checked contrast, readability, and interaction to assure it was ok.
+
+Hint: The best knowledge on this is by reading the WCAG guide.
+
+## 3. Build
+
+### Coding
+
+The design spec is the handoff artifact that I provide to the engineers. Here it's important to list all states, as well as the tokens used to build the component. During this process, there is also QA to assure accessibility compliance standards are being researched and built into the component or documented to provide guidance where we are unable to imply them through the API.
+
+### Figma component build
+
+For the final delivery, I have also to provide the full component to be published in our Figma Library. Remember what I said before about properties and variants? Every so often, it's hard to figure them out…. In fact, It can get really crazy, considering the complexity of the component or how many instances are needed. Luck to me, the inline alert was not that complex.
+
+I set the properties considering the mandatory and optional props, as well as the types of alerts. I also choose to use a nested component for the internal part of the alert, so any future update would be done across all components with easiness.
+
+Likewise, I've tried to duplicate as much of the properties engineers used in the Figma properties panel as possible. This enables engineers and designers to have a common language when interacting.
+
+Hint: I like to rely on the component research made earlier and read how other designs system does this.
+
+After the handoff, the Engineering team started to build the React component to be published in Storybook.
+
+## 4. Usage guidelines and documentation
+
+Along all the process, I've gathered information about the usage of the component. So, it was time to put it together with the content team's help. We had a template to guide us thorough the information needed.
+
+## 5. Final checks and ship!
+
+One final, but essential step is the shipment, that includes not only making the component available in code and Figma, but also widespread communicate about it. It's time to update release notes, post to slack, have a demo with the team (designers and engineers) so every interested part gets to know about it.

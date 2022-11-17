@@ -24,7 +24,7 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const CANONICAL_SLUG = router.pathname;
   console.log(CANONICAL_SLUG);
   return (
-    <WebWrapper color="bg-yellow-300">
+    <WebWrapper color="bg-white">
       <NextSeo
         title={SEO_TITLE}
         description={SEO_DESCRIPTION}
@@ -72,10 +72,10 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
                 type="text"
                 onChange={(e) => setSearchValue(e.target.value)}
                 placeholder="Search all posts"
-                className="hidden w-full px-4 py-2 text-gray-900 bg-white rounded-md focus:border-warning-500 focus:ring-warning-500"
+                className="hidden w-full px-4 py-2 text-slate-900 bg-white rounded-md focus:border-warning-500 focus:ring-warning-500"
               />
               <svg
-                className="hidden absolute w-5 h-5 text-gray-500 right-3 top-3"
+                className="hidden absolute w-5 h-5 text-slate-500 right-3 top-3"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -102,7 +102,7 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
                   </p>
                 )}
                 {filteredBlogPosts.map((post, index) => (
-                  <div key={index} className="py-8 border-yellow-700">
+                  <div key={index} className="py-12 border-slate-300">
                     <ExternalLink href={`/posts/${post.slug}`} className="mt-2">
                       <h3 className="inline text-2xl font-medium animated-underline">
                         {post.title}

@@ -2,11 +2,11 @@ import { ExternalLink, Container, WebWrapper } from '@/components';
 
 export default function FourZeroFour() {
   return (
-    <WebWrapper color="bg-yellow-300">
+    <WebWrapper color="bg-whtie">
       <Container>
         <div className="flex flex-col items-start justify-start py-72 md:flex-row md:items-center md:justify-center md:space-x-6">
           <div className="pt-6 pb-8 space-x-2 md:space-y-5">
-            <h1 className="text-6xl font-bold leading-9 tracking-tight text-gray-900 md:border-r-2 md:px-6 md:text-9xl md:leading-14">
+            <h1 className="text-6xl font-bold leading-9 tracking-tight text-slate-900 md:border-r-2 md:px-6 md:text-9xl md:leading-14">
               404
             </h1>
           </div>
@@ -20,7 +20,7 @@ export default function FourZeroFour() {
             </p>
             <ExternalLink
               href="/"
-              className="inline-flex items-center justify-center px-4 py-1 mt-8 text-base font-medium text-white bg-gray-800 border border-transparent rounded shadow-sm bg-accent whitespace-nowrap hover:underline"
+              className="inline-flex items-center justify-center px-4 py-1 mt-8 text-base font-medium text-white bg-slate-800 border border-transparent rounded shadow-sm bg-accent whitespace-nowrap hover:underline"
             >
               Back to homepage &rarr;
             </ExternalLink>

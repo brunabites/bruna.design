@@ -17,7 +17,7 @@ const About: NextPage = () => {
   const CANONICAL_SLUG = router.pathname;
   console.log(CANONICAL_SLUG);
   return (
-    <WebWrapper color="bg-yellow-300">
+    <WebWrapper color="bg-white">
       <NextSeo
         title={SEO_TITLE}
         description={SEO_DESCRIPTION}

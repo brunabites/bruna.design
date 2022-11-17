@@ -19,7 +19,7 @@ const MAX_DISPLAY = 3;
 
 const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
-    <WebWrapper color="bg-yellow-300">
+    <WebWrapper color="bg-white">
       <NextSeo
         title={config.seo.title}
         description={config.seo.description}
@@ -61,8 +61,8 @@ const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
                 <div className="max-w-3xl divide-y">
                   {posts.slice(0, MAX_DISPLAY).map((post, index) => (
-                    <div key={index} className="py-4 border-yellow-700">
-                      <ExternalLink href={`/posts/${post.slug}`} className="mt-2">
+                    <div key={index} className="py-12 border-slate-300">
+                      <ExternalLink href={`/posts/${post.slug}`} className="mt-4">
                         <h3 className="inline text-2xl font-medium animated-underline">
                           {post.title}
                         </h3>
