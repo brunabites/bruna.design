@@ -101,7 +101,7 @@ const TableOfContents: FC<TOCProps> = ({ source }) => {
             <dt>
               <Disclosure.Button
                 as="h3"
-                className="flex flex-row items-center justify-start mb-4 text-base font-medium text-gray-800 flex-nowrap"
+                className="flex flex-row items-center justify-start mb-4 text-base font-medium text-slate-800 flex-nowrap"
               >
                 <span className="animated-underline">
                   Table of Contents
@@ -130,7 +130,7 @@ const TableOfContents: FC<TOCProps> = ({ source }) => {
                       heading.id === activeId ? 'font-medium' : 'font-normal'
                     } ${
                       heading.level === 2 ? 'pl-2' : 'hidden'
-                    } mb-3 text-base text-gray-600 last:mb-6 hover:underline`}
+                    } mb-3 text-base text-slate-600 last:mb-6 hover:underline`}
                     onClick={(e) => {
                       e.preventDefault();
                       document.querySelector(`#${heading.id}`).scrollIntoView({

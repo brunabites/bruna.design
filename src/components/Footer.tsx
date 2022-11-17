@@ -54,7 +54,7 @@ export default function Footer() {
 		<Container>
 			<footer className="pb-12">
 				<ScrollToTop />
-				<div className="px-4 pt-8 mx-auto border-t border-yellow-700 max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+				<div className="px-4 pt-8 mx-auto border-t border-slate-200 max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
 					<div className="flex items-center justify-center space-x-6 md:order-2">
 						{navigation.map((item, index) => (
 							<ExternalLink key={index} href={item.href} className="pulse">

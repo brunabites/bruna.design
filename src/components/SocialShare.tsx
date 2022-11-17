@@ -31,7 +31,7 @@ const SocialShare = ({ title, slug }: SocialShareProps) => {
 
 	return (
 		<div className="py-8">
-			<h3 className="mb-4 text-base font-medium text-gray-800">Share this post</h3>
+			<h3 className="mb-4 text-base font-medium text-slate-800">Share this post</h3>
 			<div className="flex items-center justify-start flex-nowrap">
 				{socialShareLinks.map((link, index) => {
 					return (

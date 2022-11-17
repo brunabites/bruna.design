@@ -11,7 +11,7 @@ pre {
 
 /* Code title styles */
 .rehype-code-title {
-  @apply rounded-t border border-yellow-700 bg-gray-100 py-3 pb-2 pl-6 font-mono font-medium text-sm italic text-gray-700;
+  @apply rounded-t border border-purple-700 bg-slate-100 py-3 pb-2 pl-6 font-mono font-medium text-sm italic text-slate-700;
 }
 
 .rehype-code-title + div > pre {
@@ -36,11 +36,11 @@ pre {
 }
 
 .highlight-line {
-  @apply -mx-4 border-l-4 bg-gray-700 bg-opacity-50;
+  @apply -mx-4 border-l-4 bg-slate-700 bg-opacity-50;
 }
 
 .line-number::before {
-  @apply mr-4 -ml-2 inline-block w-4 text-right text-gray-400;
+  @apply mr-4 -ml-2 inline-block w-4 text-right text-slate-400;
   content: attr(line);
 }
 

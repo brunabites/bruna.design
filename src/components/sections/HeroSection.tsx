@@ -9,7 +9,7 @@ const HeroSection = () => {
           <header>
             <div className="flex flex-col items-start justify-start lg:flex-row moveUp">
                 <div className="flex flex-col items-start max-w-xs mr-0 lg:mr-10 lg:w-72 md:max-w-lg moveUp">
-                  <span className="rounded-full ring-4 ring-yellow-500">
+                  <span className="rounded-full ring-4 ring-teal-300">
                   <Image
                     src="/images/bruna-bites.png"
                     height={260}

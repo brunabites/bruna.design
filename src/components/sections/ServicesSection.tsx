@@ -35,14 +35,14 @@ const ServicesSection = () => {
 						</h1>
 
 						<div className="w-full pt-8">
-							<div className="divide-y-2 divide-yellow-700">
-								<dl className="mt-6 space-y-6 divide-y divide-yellow-700">
+							<div className="divide-y-2 divide-purple-300">
+								<dl className="mt-6 space-y-6 divide-y divide-purple-700">
 									{services.map((s, index) => (
 										<Disclosure as="div" key={index} className="pt-6">
 											{({ open }) => (
 												<>
 													<dt className="text-lg">
-														<Disclosure.Button className="flex items-start justify-between w-full text-left text-gray-800">
+														<Disclosure.Button className="flex items-start justify-between w-full text-left text-slate-800">
 															<span className="text-xl font-medium lg:text-2xl">
 																{s.name}
 															</span>
@@ -58,7 +58,7 @@ const ServicesSection = () => {
 														</Disclosure.Button>
 													</dt>
 													<Disclosure.Panel as="dd" className="pr-12 mt-2">
-														<p className="max-w-xl text-lg text-gray-700 lg:text-xl">
+														<p className="max-w-xl text-lg text-slate-700 lg:text-xl">
 															{s.description}
 														</p>
 													</Disclosure.Panel>

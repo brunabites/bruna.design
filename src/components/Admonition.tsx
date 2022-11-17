@@ -199,15 +199,15 @@ const Example = (props: AdmonitionProps) => {
 };
 const Quote = (props: AdmonitionProps) => {
   return (
-    <div className="p-4 border rounded-sm bg-gray-50">
+    <div className="p-4 border rounded-sm bg-slate-50">
       <div className="flex items-center justify-start mb-4">
         <span className="sr-only">{props.type}</span>
-        <RiDoubleQuotesR className="text-gray-500" />
-        <span className="w-64 ml-2 font-bold leading-tight tracking-wide text-gray-800 md:w-full">
+        <RiDoubleQuotesR className="text-slate-500" />
+        <span className="w-64 ml-2 font-bold leading-tight tracking-wide text-slate-800 md:w-full">
           {props.title ? props.title : props.type}
         </span>
       </div>
-      <div className="text-base font-normal text-gray-700 prose-p:mt-0 prose-p:mb-2">
+      <div className="text-base font-normal text-slate-700 prose-p:mt-0 prose-p:mb-2">
         {props.children}
       </div>
     </div>
