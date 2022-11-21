@@ -119,8 +119,12 @@ body,
     max-width: 800px;
     margin: 0px auto;
     outline-offset: 10px;
-    }
+  }
   
+  .inner-bleed img {
+    margin: 0px auto;
+  }
+
   @media screen and (min-width: 960px) {
     .inner-bleed {
       max-width: 900px;

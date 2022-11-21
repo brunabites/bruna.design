@@ -77,7 +77,7 @@ export default function Header() {
 									</Popover.Button>
 								</div>
 							</div>
-							<p className="tracking-tight text-slate-800">Product Designer, Desing Systems</p>
+							<p className="tracking-tight text-slate-800">Product Designer, Design Systems</p>
 						</div>
 						<div className="px-5 py-6 space-y-6">
 							<div className="grid grid-row-2 gap-y-4 gap-x-8">

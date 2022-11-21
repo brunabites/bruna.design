@@ -1,33 +1,23 @@
 ---
 title: 'Inline alert component'
 summary: 'My process to design and release a component to a design system.'
-publish_date: '07-24-2021'
-last_modified: '07-24-2021'
-cover_image: '/images/covers/cover-impulso@2x.png'
+cover_image: '/images/covers/cover-inline-component@2x.jpg'
 tags: ['design system', 'user interface']
+publish_date: '05-24-2022'
+last_modified: '05-24-2022'
+draft: false
 ---
-<CaseCard role="Design Lead" timeline="3 months" tools="Spreadsheets, Miro, Hotjar, UserStory, Figma" platform="Website">
+
+<CaseCard role="Designer" timeline="2 weeks" tools="Figma, CSS, HTML, ZeroHeight" platform="Design System">
   <h3>My process to design and release a component to a design system</h3>
     I was designing the experience for the Pipefy message area and in the flow, there would be a validation that could stop messages from being sent if some requirements weren't met. The issue was that errors were too hard to be solved because alert messages were generic and didn't point to the right context. Moreover, it would prevent the user from taking an essential action to move forward with their work. After consulting other designers and conducting research, I decided to try a new component to overcome this issue.
 </CaseCard>
 
-<h4 className="mt-0 border-b border-slate-200">Overview</h4>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-4 text-base lg:text-lg">
-  <div>
-    <h5>Problem</h5>
-    Lorem ipsum dolor sur amet
-  </div>
-  <div>
-    <h5>Outcome</h5>
-    Lorem ipsum dolor sur amet
-  </div>
-</div>
-
 <InternalImage
   src="/images/content/pipefy-alert-process.gif"
   alt="My process to create components"
-  width={962}
-  height={284}
+  width={1484}
+  height={478}
 />
 
 When building a component <Tooltip content="Hello World" link="this text is information"/>, you need to think about quality, the design of the component, and also the needs of the product and how you're going to use it. Practice and collaboration help to make the process more interesting, rich, and effective. The process I used at Pipefy is based on what I've learned with [this article](https://medium.com/eightshapes-llc/system-features-step-by-step-e69c90982630) from the Nathan Curtis, from EightShapes. Here are the steps:
@@ -65,8 +55,8 @@ I then consulted other designers to see if there were any use cases in which we 
 
 ### **Examples:**
 
-- The alert may let the user know that all inputs are required and direct them to offending inputs.
-- An alert next to the field of the form that indicates the password complies with criteria could be used to create a new password.
+- The alert may let the user know that all inputs are required and direct them to offending inputs;
+- An alert next to the password field that indicates the password complies with some criteria to be accepted.
 
 ### **Types of alerts:**
 
@@ -89,6 +79,13 @@ I like to check the [component Gallery](https://component.gallery/) because it i
 
 Yey! Figma's time! Since I knew a lot about this component and how it worked, it was time to have some fun at Figma.
 
+<FullImage
+  src="/images/content/pipefy-alert-studies@2x.jpg"
+  alt="My process to create components"
+  width={1139}
+  height={366}
+/>
+
 I like to build a full version of the component, including all properties it may have, and then break up in parts and states. This way, I can figure out the properties and smaller parts, a.k.a. [nested components](https://www.figma.com/best-practices/component-architecture/nested-components/) I will use when delivering the final component to the Figma library.
 
 It's important to cover the look of the component, but also its behavior and interaction; therefore a prototype is essential.
@@ -101,7 +98,14 @@ I've presented the component in our design weekly (meeting with all designers) a
 
 While designing is crucial to review the component to attend to minimal accessibility requirements. I checked contrast, readability, and interaction to assure it was ok.
 
-Hint: The best knowledge on this is by reading the WCAG guide.
+_**Hint:** The best knowledge on this is by reading the [WCAG guide](https://guia-wcag.com/en/) and using Figma plugins such as [Use Contrast](https://www.figma.com/community/plugin/1149686177449921115/Use-Contrast) and [Stark](https://www.figma.com/community/plugin/732603254453395948/Stark)._
+
+<InternalImage
+  src="/images/content/pipefy-alert-accessibility-check@2x.jpg"
+  alt="My process to create components"
+  width={694}
+  height={456}
+/>
 
 ## 3. Build
 
@@ -115,16 +119,54 @@ For the final delivery, I have also to provide the full component to be publishe
 
 I set the properties considering the mandatory and optional props, as well as the types of alerts. I also choose to use a nested component for the internal part of the alert, so any future update would be done across all components with easiness.
 
+<InternalImage
+  src="/images/content/pipefy-alert-properties@2x.jpg"
+  alt="My process to create components"
+  width={671}
+  height={532}
+/>
+
 Likewise, I've tried to duplicate as much of the properties engineers used in the Figma properties panel as possible. This enables engineers and designers to have a common language when interacting.
 
-Hint: I like to rely on the component research made earlier and read how other designs system does this.
+_**Hint:** I like to rely on the component research made earlier and read how other designs system does this._
 
 After the handoff, the Engineering team started to build the React component to be published in Storybook.
+
+<FullImage
+  src="/images/content/pipefy-alert-handoff@2x.jpg"
+  alt="My process to create components"
+  width={2690}
+  height={3470}
+/>
 
 ## 4. Usage guidelines and documentation
 
 Along all the process, I've gathered information about the usage of the component. So, it was time to put it together with the content team's help. We had a template to guide us thorough the information needed.
 
+<InternalImage
+  src="/images/content/pipefy-alert-docs@2x.jpg"
+  alt="My process to create components"
+  width={1019}
+  height={1374}
+/>
+
 ## 5. Final checks and ship!
 
 One final, but essential step is the shipment, that includes not only making the component available in code and Figma, but also widespread communicate about it. It's time to update release notes, post to slack, have a demo with the team (designers and engineers) so every interested part gets to know about it.
+
+---
+
+### Examples in the product
+<FullImage
+  src="/images/content/pipefy-alert-example-1@2x.jpg"
+  alt="My process to create components"
+  width={2768}
+  height={1388}
+/>
+
+<FullImage
+  src="/images/content/pipefy-alert-example-2@2x.jpg"
+  alt="My process to create components"
+  width={2768}
+  height={1388}
+/>

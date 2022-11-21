@@ -17,9 +17,9 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
   });
 
   const SEO_TITLE =
-    'From the Desk of Bruna Bites » Digital, Design, Development Blog';
+    'From the Desk of Bruna Bites » Product Design, Design System, User Interface';
   const SEO_DESCRIPTION =
-    'Explore the wandering mind of a seasoned marketing professional and evolving creative developer. Topics include design, development, and all things digital.';
+    'Explore the work of curious digital product designer who works to transform the way people use digital services.';
   const router = useRouter();
   const CANONICAL_SLUG = router.pathname;
   console.log(CANONICAL_SLUG);
@@ -51,7 +51,7 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
         }}
       />
       <Container>
-        <div className="flex flex-col items-start justify-start pt-40 lg:flex-row">
+        <div className="flex flex-col items-start justify-start py-16 md:pt-24 md:pb-20 lg:flex-row">
           <span className="max-w-sm pt-0 pb-4 mr-0 text-xl font-medium lg:pb-0 lg:pt-4 lg:mr-40 lg:w-28">
             work
           </span>
@@ -61,9 +61,7 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
             </h2>
             <div className="max-w-2xl mb-4 space-y-6 text-2xl">
               <p>
-                Explore the wandering mind of a seasoned marketing professional and
-                evolving creative developer. Topics include design, development,
-                marketing, and all things digital.
+              Explore the work of curious digital product designer who works to transform the way people use digital services.
               </p>
             </div>
             <div className="relative w-full mb-4">
@@ -91,7 +89,7 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
             </div>
           </div>
         </div>
-        <div className="py-16">
+        <div className="py-4">
           <div className="flex flex-col items-start justify-start lg:flex-row">
             <span className="max-w-sm pt-0 pb-4 mr-0 text-xl font-medium lg:pb-0 lg:pt-4 lg:mr-40 lg:w-28"></span>
             <div className="flex flex-col items-start">
@@ -115,7 +113,7 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
                           alt={"Cover for " + post.title}
                           objectFit="cover"
                           objectPosition="top center"
-                          className="rounded-lg brightness-110 hover:brightness-100 hover:-translate-y-0.5 transition duration-300 ease-in-out"
+                          className="rounded-lg hover:brightness-95 hover:-translate-y-0.5 transition duration-300 ease-in-out"
                           placeholder="blur"
                           blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(410, 768))}`}
                           priority
