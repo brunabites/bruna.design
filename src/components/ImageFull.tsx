@@ -24,6 +24,7 @@ export default function FullImage({
             height={height}
             placeholder="blur"
             blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
+            priority
             {...rest}
           />
         <figcaption className="pt-2 text-sm text-center text-slate-500">
