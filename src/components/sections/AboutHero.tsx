@@ -1,5 +1,4 @@
 import ExternalLink from '../Link';
-import Container from '../Container';
 import Available from '../Available';
 
 const AboutHero = () => {
