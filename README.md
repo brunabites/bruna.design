@@ -3,7 +3,7 @@
 
 Hey, there! This is my [personal portfolio](https://bruna.design/) built based on [Ekom Enyong amazing site](https://github.com/ekomenyong/kommy-mdx) remixed, using Next.js, TypeScript, Tailwind, & MDX via Contentlayer.
 
-I wanted to use simple markdown (.mdx) as content for my site since I'm usign Obsidian to take notes. I've found about [contentlayer](https://github.com/contentlayerdev/contentlayer), and looking for examples I've found this precious thing Ekom built. I've changed it to serve as a portfolio and to fit my needs.
+I wanted to use simple markdown (.mdx) as content for my site since I'm usign Obsidian to take notes. I've found about (contentlayer)[https://github.com/contentlayerdev/contentlayer], and looking for examples I've found this precious thing Ekom built. I've changed it to serve as a portfolio and to fit my needs.
 
 ### Want to use?
 
