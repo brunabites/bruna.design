@@ -10,7 +10,7 @@ import { NextSeo } from 'next-seo';
 import { useRouter } from 'next/router';
 
 const About: NextPage = () => {
-  const SEO_TITLE = 'About Bruna Bites » Digital Creative & Marketing Professional';
+  const SEO_TITLE = 'About Bruna Bites » Product Designer, Design Systems Professional';
   const SEO_DESCRIPTION =
     'Bruna Bites is a Lead Product Designer, crazy about Design Systems based in Brasilia, Brazil.';
   const router = useRouter();
