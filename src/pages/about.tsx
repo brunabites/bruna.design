@@ -12,7 +12,7 @@ import { useRouter } from 'next/router';
 const About: NextPage = () => {
   const SEO_TITLE = 'About Bruna Bites » Digital Creative & Marketing Professional';
   const SEO_DESCRIPTION =
-    'Bruna Bites is a digital creative based in the United States. She creates ethical, modern digital products and experiences using seo, design, and code.';
+    'Bruna Bites is a Lead Product Designer, crazy about Design Systems based in Brasilia, Brazil.';
   const router = useRouter();
   const CANONICAL_SLUG = router.pathname;
   console.log(CANONICAL_SLUG);
