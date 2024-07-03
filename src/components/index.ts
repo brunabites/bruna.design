@@ -19,4 +19,4 @@ export { default as SocialShare } from './SocialShare';
 export { default as TableOfContents } from './TOC';
 export { default as Tag } from './Tag';
 export { default as PostTitle } from './PostTitle';
-export { default as Analytics } from './Analytics';
+export { default as GoogleAnalytics } from './GoogleAnalytics';

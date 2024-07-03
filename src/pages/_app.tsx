@@ -1,13 +1,12 @@
 import type { AppProps } from 'next/app';
-
+import { GoogleAnalytics } from '@/components';
 import '@/styles/index.css';
 import '@/styles/prism.css';
-import { Analytics } from '@/components';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Analytics />
+      <GoogleAnalytics />
       <Component {...pageProps} />
     </>
   );
