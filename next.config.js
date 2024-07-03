@@ -8,7 +8,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline';
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' *.googletagmanager.com;
   style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net;
 	frame-src youtube.com www.youtube.com figma.com www.figma.com;
   img-src * blob: data:;
@@ -77,12 +77,7 @@ const nextConfig = {
     return [
       {
         source: '/(.*)',
-        headers: [
-          {
-            key: 'Content-Security-Policy',
-            value: ContentSecurityPolicy.replace(/\n/g, ''),
-          },
-        ],
+        headers: securityHeaders,
       },
     ];
   },
