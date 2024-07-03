@@ -19,37 +19,25 @@
   </url>
 
   <url>
-    <loc
-      >https://bruna.design/posts/core-web-vitals-understanding-lcp-fid-and-cls</loc
-    >
+    <loc>https://bruna.design/posts/brazilian-design-systems</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://bruna.design/posts/rebuilding-blog-nextjs-mdx-tailwindcss</loc>
+    <loc>https://bruna.design/posts/case-actabl-unified-ui</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc
-      >https://bruna.design/posts/from-wordpress-to-jamstack-why-self-taught-devloper-switched</loc
-    >
+    <loc>https://bruna.design/posts/case-design-system-component</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc
-      >https://bruna.design/posts/how-to-setup-free-postgresql-database-on-railway-app</loc
-    >
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://bruna.design/posts/react-nextjs-developer-tech-stack-tools</loc>
+    <loc>https://bruna.design/posts/case-ifood-financial-dashboard</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

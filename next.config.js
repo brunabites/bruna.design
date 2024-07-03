@@ -15,6 +15,10 @@ const ContentSecurityPolicy = `
   media-src * blob: data:;
 	object-src 'none';
   connect-src 'self' *.googletagmanager.com;
+  base-uri 'self';
+  form-action 'self';
+  frame-ancestors 'none';
+  upgrade-insecure-requests;
 `;
 
 const securityHeaders = [
@@ -73,7 +77,12 @@ const nextConfig = {
     return [
       {
         source: '/(.*)',
-        headers: securityHeaders,
+        headers: [
+          {
+            key: 'Content-Security-Policy',
+            value: ContentSecurityPolicy.replace(/\n/g, ''),
+          },
+        ],
       },
     ];
   },
