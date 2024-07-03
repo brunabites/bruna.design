@@ -14,7 +14,7 @@ const ContentSecurityPolicy = `
   img-src * blob: data:;
   media-src * blob: data:;
 	object-src 'none';
-  connect-src 'self' *.googletagmanager.com;
+  connect-src 'self' *.googletagmanager.com *.google-analytics.com;
   base-uri 'self';
   form-action 'self';
   frame-ancestors 'none';
